@@ -42,6 +42,37 @@ a:link, a:hover, a:active{
 	height: 100%;
 }
 
+.global-navi{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.global-navi .nav-item{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.global-navi .nav-item a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 8px;
+	color: #666;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	transition: 0.15s;
+}
+
+.global-navi .nav-item.active a,
+.global-navi .nav-item a:hover{
+	background-color: #d03c56;
+	color: #fff;
+}
+
+
+
 .wrapper{
 	width: 970px;
 	margin: 30px auto 40px;
